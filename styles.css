@@ -133,16 +133,29 @@ h1 {
 
 /* PROCESS */
 #process {
-	color: white;
+	color: #ffffff;
 }
 
 .processimage {
 	width: 325px;
     height: 200px;
+	vertical-align: middle;
+	margin: 0px 40px 40px 40px;
+}
+
+.arrow {
+	width: 50px;
+	vertical-align: middle;
+	margin-bottom: 40px;
 }
 
 #process1 {
 	background-color: #669933;
+}
+
+.process_container {
+	margin: 0px auto 0px auto;
+	text-align: center;
 }
 
 #process2 {
@@ -158,6 +171,21 @@ h1 {
 #process3 {
 	background-color: #669933;
 	opacity: 0.8;
+}
+
+h2 {
+	font-family: Raleway-SemiBold;
+	color: #ffcc66;
+}
+
+.process_description {
+	width: 325px;
+	margin: 0px;
+	display: inline-block;
+}
+
+.process_description p {
+	margin: 0px;
 }
 
 @media(max-width: 1200px) {
