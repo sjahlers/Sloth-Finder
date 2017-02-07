@@ -3,13 +3,18 @@
 /* White: #ffffff */
 
 @font-face {
-	font-family: 'Raleway-Regular';
-	src: url('fonts/Raleway/Raleway-Regular.ttf');
+	font-family: 'Raleway-Medium';
+	src: url('fonts/Raleway/Raleway-Medium.ttf');
 }
 
 @font-face {
 	font-family: 'Raleway-Thin';
 	src: url('fonts/Raleway/Raleway-Thin.ttf');
+}
+
+@font-face {
+	font-family: 'Raleway-SemiBold';
+	src: url('fonts/Raleway/Raleway-SemiBold.ttf');
 }
 
 *, *:before, *:after {
@@ -19,7 +24,7 @@
 }
 
 * {
-	font-family: Raleway-Regular;
+	font-family: Raleway-Medium;
 	margin: 0;
 }
 
@@ -27,7 +32,7 @@ a {
 		text-decoration: none;
 }
 
-/* SPLASH PAGE AT TOP */
+/* SPLASH PAGE TOP */
 
 #splash {
 	background-image: url("images/sloth-1879999.jpg");
@@ -43,6 +48,12 @@ a {
 header {
 	background-color: #669933;
 	height: 100px;
+}
+
+#logo {
+	width: 23%;
+	padding: 5px;
+	margin-left: 20px;
 }
 
 nav {
@@ -91,8 +102,7 @@ nav a {
 #find_a_sloth a{
 	color: #ffffff;
     font-size: 1.5vw;
-    font-family: Raleway-Regular;
-    font-weight: bold;
+    font-family: Raleway-SemiBold;
     line-height: 40px;
 }
 
@@ -103,6 +113,52 @@ nav a {
 
 /* END OF SPLASH */
 
+h1 {
+	font-family: Raleway-Thin;
+	text-align: center;
+	font-size: 2.5em;
+	padding: 10px;
+}
+
+.text {
+	text-align: justify;
+	margin: 40px 80px;
+}
+
+/* ABOUT */
+#about h1 {
+	color: #669933;
+}
+/* END ABOUT */
+
+/* PROCESS */
+#process {
+	color: white;
+}
+
+.processimage {
+	width: 325px;
+    height: 200px;
+}
+
+#process1 {
+	background-color: #669933;
+}
+
+#process2 {
+	background-image: url("images/rainforest.jpg");
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+#process3 {
+	background-color: #669933;
+	opacity: 0.8;
+}
 
 @media(max-width: 1200px) {
 	#splash {
