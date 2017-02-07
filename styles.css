@@ -1,0 +1,115 @@
+/* Yellow: #ffcc66 */
+/* Green: #669933 */
+/* White: #ffffff */
+
+@font-face {
+	font-family: 'Raleway-Regular';
+	src: url('fonts/Raleway/Raleway-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Raleway-Thin';
+	src: url('fonts/Raleway/Raleway-Thin.ttf');
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+	font-family: Raleway-Regular;
+	margin: 0;
+}
+
+a {
+		text-decoration: none;
+}
+
+/* SPLASH PAGE AT TOP */
+
+#splash {
+	background-image: url("images/sloth-1879999.jpg");
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 800px;
+}
+
+header {
+	background-color: #669933;
+	height: 100px;
+}
+
+nav {
+	float: right;
+	height: 50px;
+	margin: 2%;
+}
+
+nav a {
+	color: #ffcc66;
+	padding: 15px;
+	font-size: 1.25em;
+	margin: 10px;
+}
+
+#splashtitle {
+	margin-top: 5%;
+}
+
+#nature, #chillest, #pet {
+	color: white;
+	font-size: 8vw;
+	font-family: Raleway-Thin;
+}
+
+#nature {
+	margin-left: 5%;
+}
+#chillest {
+	margin-left: 15%;
+}
+#pet {
+	margin-left: 25%;
+}
+
+#find_a_sloth {
+	background-color: #669933;
+	opacity: 0.9;
+	margin-left: 65%;
+	width: 20%;
+	padding: 10px;
+	text-align: center;
+	height: 60px;
+}
+
+#find_a_sloth a{
+	color: #ffffff;
+    font-size: 1.5vw;
+    font-family: Raleway-Regular;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+#search_icon {
+	width: 8%;
+	vertical-align: middle;
+}
+
+/* END OF SPLASH */
+
+
+@media(max-width: 1200px) {
+	#splash {
+	background-size: contain;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+}
+	
+}
