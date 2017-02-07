@@ -218,6 +218,18 @@ h2 {
 }
 /* END WASTE */
 
+/* FOOTER */
+footer {
+	background-color: #669933;
+	clear: both;
+	color: #ffcc66;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
+
+/* END FOOTER */
+
 @media(max-width: 1200px) {
 	#splash {
 	background-size: contain;
