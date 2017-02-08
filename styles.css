@@ -253,4 +253,63 @@ footer {
 		height: 730px;
 	}
 }
+
+@media(max-width: 1020px) {
+	#splash {
+		height: 670px;
+	}
+	
+	#bulldozer {
+		float: none;
+	}
+	
+	#waste_text {
+		float: none;
+		width: 100%;
+	}
+}
+
+@media(max-width: 985px) {
+	#logo {
+    width: 250px;
+	}
+
+	nav {
+		float: none;
+		text-align: center;
+	}
+	
+	header {
+		height: 130px;
+	}
+	
+@media(max-width: 940px) {
+	#splash {
+		height: 620px;
+	}
+}
+
+@media(max-width: 884px) {
+	#splash {
+		height: 550px;
+	}
+	
+	.callout {
+		width: 25%;
+	}
+	
+	.callout a {
+		font-size: 2vw;
+	}
+	
+	.arrow {
+		display: block;
+		margin: 0px auto 40px auto;
+	}
+	
+	footer {
+		height: 100px;
+		line-height: 30px;
+	}
+}
 }
