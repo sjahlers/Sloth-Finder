@@ -276,7 +276,7 @@ footer {
 
 	nav {
 		float: none;
-		text-align: center;
+		margin: 0px;
 	}
 	
 	header {
@@ -291,7 +291,7 @@ footer {
 
 @media(max-width: 884px) {
 	#splash {
-		height: 550px;
+		height: 600px;
 	}
 	
 	.callout {
@@ -308,8 +308,48 @@ footer {
 	}
 	
 	footer {
-		height: 100px;
+		height: 80px;
 		line-height: 30px;
+	}
+}
+
+@media(max-width: 730px) {
+	#splash {
+		height: 480px;
+	}
+}
+
+@media(max-width: 580px) {
+	#splash {
+		height: 400px;
+	}
+	
+	#find {
+		position: relative;
+		height: 40px;
+		top: -50px;
+	}
+	
+	#find a {
+		line-height: 100%;
+	}
+	
+	h1 {
+		font-size: 2em;
+	}
+}
+
+@media(max-width: 400px) {
+	.process_description {
+		margin: 40px 0px;
+	}
+	
+	#enroll a{
+		font-size: 1em;
+	}
+	
+	#enroll {
+		width: 60%;
 	}
 }
 }
