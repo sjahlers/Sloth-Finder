@@ -191,7 +191,7 @@ h2 {
 
 /* WASTE */
 #bulldozer {
-	width: 450px;
+	width: 400px;
 	float: left;
 }
 
@@ -237,5 +237,19 @@ footer {
 	-moz-background-size: contain;
 	-o-background-size: contain;
 }
+
+@media(max-width: 1160px) {
+	#splash {
+		height: 780px;
+	}
 	
+	#waste_text {
+		width: 60%;
+	}
+
+@media(max-width: 1100px) {
+	#splash {
+		height: 730px;
+	}
+}
 }
