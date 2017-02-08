@@ -191,13 +191,14 @@ h2 {
 
 /* WASTE */
 #bulldozer {
-	width: 450px;
+	width: 30%;
 	float: left;
 }
 
 #waste_text {
 	width: 65%;
 	float: right;
+	margin-top: 25px;
 }
 
 #waste h1 {
